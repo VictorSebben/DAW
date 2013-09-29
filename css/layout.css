@@ -1,0 +1,119 @@
+/* ----- ESTILOS GERAIS ----- */
+.cf:before, .cf:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: Ubuntu;
+    color: #444;
+    width: 960px;
+    margin: 0 auto;
+}
+
+a {
+    color: #f00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #aa3333;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+    text-align: left;
+    min-width: 50px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+span a {
+    color: #08C;
+    width: 100px;
+    border: 2px solid #f00;
+    padding: 5px;
+}
+
+span a:hover {
+    background-color: #08C;
+    color: white;
+}
+
+.sair {
+    margin-bottom: 18px;
+}
+
+/* ---------------------------------------- */
+/* --------- MENSAGENS DO SISTEMA --------- */
+div.mensagens-wrap {
+    margin: 10px 0 30px 0;
+}
+div.sucesso-msg, div.erro-msg, div.aviso-msg {
+    padding: 20px 10px;
+    margin: 5px 0;
+    text-align: center;
+}
+div.sucesso-msg {
+    border: 3px solid green;
+    color: green;
+    background: #dfe;
+}
+div.aviso-msg {
+    border: 3px solid darkorange;
+    color: darkorange;
+    background: gainsboro;
+}
+div.erro-msg {
+    border: 3px solid red;
+    color: red;
+    background: #FFEAE3;
+}
+
+/* ------------------------------------------------- */
+/* ----- FORM INSERIR / EDITAR --------------------- */
+section.confirm-excluir {
+    padding: 20px;
+    margin: 20px 0 0 0;
+    border: 5px solid #FFA4A4;
+}
+.confirm-excluir .desc {
+    float: left;
+    width: 120px;
+    text-align: right;
+    margin: 0 8px 0 0;
+}
+.links-acoes {
+    width: 145px;
+    float: right;
+}
+.confirm-excluir a.voltar, .confirm-excluir a.excluir {
+    padding: 5px 10px;
+}
+.confirm-excluir a.voltar {
+    border: 2px solid green;
+    color: green;
+}
+
+.confirm-excluir a.excluir {
+    border: 2px solid red;
+    color: red;
+}
+
+select {
+    margin-bottom: 20px;
+}
+
+.bem-vindo {
+    color: green;
+    font-size: 40px;
+}
